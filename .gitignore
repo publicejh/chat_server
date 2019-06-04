@@ -129,4 +129,7 @@ dmypy.json
 # ide
 .idea/
 
+# custom
+.config_secret/
+
 # End of https://www.gitignore.io/api/python

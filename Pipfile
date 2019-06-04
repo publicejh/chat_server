@@ -7,6 +7,11 @@ verify_ssl = true
 
 [packages]
 django = "*"
+channels = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+django-rest-swagger = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.7"
