@@ -34,5 +34,4 @@ def get_user_detail(pk):
 
     if res.status_code != 200:
         return None
-    print('aaaaa', res.content)
     return json.loads(res.content)
