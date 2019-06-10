@@ -7,10 +7,8 @@ from .views import get_last_20_messages, get_user_contact, get_current_chat, get
 
 class ChatConsumer(WebsocketConsumer):
 
-    # def __init__(self):
-    #     super(ChatConsumer, self).__init__()
-    #     self.room_name = ''
-    #     self.room_group_name = ''
+    room_name = ''
+    room_group_name = ''
 
     def fetch_messages(self, data):
         messages = get_last_20_messages(data['chatId'], data['endAt'])

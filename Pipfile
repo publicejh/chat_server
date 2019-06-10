@@ -13,6 +13,7 @@ djangorestframework = "*"
 django-rest-swagger = "*"
 django-cors-headers = "*"
 channels-redis = "*"
+djangorestframework-api-key = "*"
 
 [requires]
 python_version = "3.7"

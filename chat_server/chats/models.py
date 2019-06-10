@@ -31,4 +31,4 @@ class Chat(models.Model):
         return '{}'.format(self.pk)
 
     def group_name(self):
-        return 'chat_%s' % self.pk
+        return 'chat_{}'.format(self.pk)
